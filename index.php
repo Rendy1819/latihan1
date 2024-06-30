@@ -1,6 +1,6 @@
 <table>
     <h2>Data</h2>
-    <tr border="1px solid">
+    <tr border="1">
         <th width="50">No</th>
         <th width="100">No. Induk</th>
         <th width="150">Nama Karyawan</th>
@@ -18,7 +18,7 @@
     while($tampil = mysqli_fetch_array($ambildata)) {
         echo "
         <tr>
-            <td align='center'> $no</td>
+            <td align='center'> $no </td>
             <td align='center'> $tampil [no_induk]</td>
             <td align='center'> $tampil [nama]</td>
             <td align='center'> $tampil [nama_jab]</td>
