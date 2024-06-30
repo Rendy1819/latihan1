@@ -18,12 +18,12 @@
     while($tampil = mysqli_fetch_array($ambildata)) {
         echo "
         <tr>
-            <td align='center'>$no</td>
-            <td align='center'>$tampil[no_induk]</td>
-            <td align='center'>$tampil[nama]</td>
-            <td align='center'>$tampil[nama_jab]</td>
-            <td align='center'>$tampil[gaji_pokok]</td>
-            <td align='center'>$tampil[tunjangan]</td>
+            <td align='center'> $no</td>
+            <td align='center'> $tampil [no_induk]</td>
+            <td align='center'> $tampil [nama]</td>
+            <td align='center'> $tampil [nama_jab]</td>
+            <td align='center'> $tampil [gaji_pokok]</td>
+            <td align='center'> $tampil [tunjangan]</td>
         </tr>    
         " ;
         $no++;
