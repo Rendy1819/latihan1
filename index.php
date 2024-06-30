@@ -1,6 +1,13 @@
-<h2>Data</h2>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <table>
+    <h2>Data</h2>
     <tr border="1px solid">
         <th width="50">No</th>
         <th width="100">No. Induk</th>
@@ -31,3 +38,7 @@
     }
     ?>
 </table>    
+</body>
+</html>
+
+
